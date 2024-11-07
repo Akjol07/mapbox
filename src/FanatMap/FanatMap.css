@@ -1,0 +1,20 @@
+.availableSeat {
+  cursor: pointer;
+}
+
+.availableSeat:hover {
+  fill: #00aeff88;
+}
+
+.unavailableSeat {
+  cursor: not-allowed;
+}
+
+.selectedSeat,
+.selectedSeat:hover {
+  fill: #0144dd;
+}
+
+g:hover > rect[id^="wall"] {
+  fill: #0144dd;
+}
